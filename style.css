@@ -1,0 +1,6 @@
+.nav-item{
+    width: 10vw;
+}
+.nav-item .nav-link:hover{
+    color:#ff8000ed!important;
+}

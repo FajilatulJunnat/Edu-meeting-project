@@ -4,3 +4,27 @@
 .nav-item .nav-link:hover{
     color:#ff8000ed!important;
 }
+/*video section*/
+.video-section{
+   
+    position: relative;
+    
+}
+.video-section video{
+    filter: brightness(40%);
+}
+
+.text-overlay{
+    
+    position: absolute;
+    top: 10vw;
+    left: 10vw;
+    width: 45% !important;
+}
+.p-link{
+    color:rgb(86, 208, 238);
+    text-decoration: none;
+}
+.p-link:hover{
+    color: rgb(237, 168, 41);
+}

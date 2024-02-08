@@ -184,3 +184,8 @@ width: 100%;
     background-position: center;
 
 }
+/*footer*/
+.foo-icon:hover{
+  color:#f8a048ed !important;
+  
+}

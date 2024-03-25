@@ -117,15 +117,28 @@ body{
     color: rgb(237, 168, 41) !important;
   }
   /*apply part*/
-  .apply-section{
-    background-image: url(./images/apply-bg.jpg);
+  .apply-section{ 
+    background:url("./images/apply-bg.jpg");
     position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-blend-mode: darken !important;
+
+ }
+ .bg-testi::before{
+    background-color: rgba(0, 0, 0, 0.55) !important;
+    background-size: cover;
+  content: '';
+  position: absolute;
   height: 100%;
   width: 100%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+  top: 0;
+  left: 0;
+ 
+}
+  
   .apply-for{
     background-color: rgba(111, 111, 111, 0.55) !important;
   }
@@ -178,14 +191,27 @@ transform: scale(1.1);
 
 /*fact section*/
 .fact-section{
-  background-image: url(./images/facts-bg.jpg);
+  
+  background:url("./images/facts-bg.jpg");
   position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  background-blend-mode: darken !important;
+
+}
+.bg-testi::before{
+  background-color: rgba(0, 0, 0, 0.55) !important;
+  background-size: cover;
+content: '';
+position: absolute;
 height: 100%;
 width: 100%;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  top: -1px;
+top: 0;
+left: 0;
+
+
 }
 .video-bg{
   bottom: 250px;
